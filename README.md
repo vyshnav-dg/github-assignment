@@ -21,4 +21,4 @@ The following actions were used from the Github actions marketplace
 - Some additional status checks were included to let the user know about the progress of each step
 - Difficulties were faced while trying to setup cache for the python dependencies.
     - `actions/setup-python` requires the repository to have a `requirements.txt` file or something similar. So a `requirements.txt` file was added to fix this
-    - Even after the above fix, there was still an error that states `cache service returned 400`. To fix this, the latest version of `actions/setup-python` was used (version 6) 
+    - Even after the above fix, there was still an error that states `cache service returned 400`. To fix this, the latest version of `actions/setup-python` was used (version 6)
