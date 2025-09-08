@@ -6,7 +6,7 @@ class TestInventorySystem(unittest.TestCase):
     def setUp(self):
         self.inv = Inventory()
         self.item1 = Item("Laptop", 10, 50000)
-        self.item2 = Item("Mouse", 50, 50)
+        self.item2 = Item("Mouse", 50, 500)
 
     def test_add_item(self):
         self.inv.add_item(self.item1)
